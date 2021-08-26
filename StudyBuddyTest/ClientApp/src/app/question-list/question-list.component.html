@@ -1,0 +1,12 @@
+<ol>
+  <li *ngFor="let s of questionList">
+    <p>{{ s.question }}</p>
+    <div class="btn btn-dark" (click)="onSelect(s)">See Answer</div>
+  </li>
+</ol>
+
+<div *ngIf="selectedQ">
+<div>Answer: {{ selectedQ.answer }}</div>
+</div>
+
+<app-add-question></app-add-question>
