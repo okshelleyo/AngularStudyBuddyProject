@@ -1,12 +1,9 @@
 <ol class="questionList">
   <li *ngFor="let s of questionList">
     <p>{{ s.question }}</p> <button class="btn-answer" (click)="onSelect(s)">See Answer</button>
-
+    <p *ngIf="s === selectedQ">{{ selectedQ.answer }}</p>
   </li>
 </ol>
 
-<div class="answer-box" *ngIf="selectedQ">
- {{ selectedQ.answer }}
-</div>
 
 <app-add-question></app-add-question>

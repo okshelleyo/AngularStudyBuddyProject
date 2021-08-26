@@ -15,6 +15,7 @@ export class AddQuestionComponent implements OnInit {
   constructor(private questionAPI: QuestionApiService) { }
 
   ngOnInit() {
+
   }
 
   onSubmit(form: NgForm) {
