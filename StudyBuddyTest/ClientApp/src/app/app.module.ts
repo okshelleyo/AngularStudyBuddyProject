@@ -9,6 +9,7 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { QuestionListComponent } from './question-list/question-list.component';
 import { AddQuestionComponent } from './add-question/add-question.component';
+import { FavoritesListComponent } from './favorites-list/favorites-list.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AddQuestionComponent } from './add-question/add-question.component';
     NavMenuComponent,
     HomeComponent,
     QuestionListComponent,
-    AddQuestionComponent
+    AddQuestionComponent,
+    FavoritesListComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -24,6 +26,7 @@ import { AddQuestionComponent } from './add-question/add-question.component';
     FormsModule,
     RouterModule.forRoot([
       { path: 'questionList', component: QuestionListComponent},
+      { path: 'favoritesList', component: FavoritesListComponent},
       { path: '', component: HomeComponent, pathMatch: 'full' },
     ])
   ],

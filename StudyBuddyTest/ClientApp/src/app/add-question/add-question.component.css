@@ -1,0 +1,29 @@
+.btn-add {
+  border: #ff1493;
+  color: #26385e;
+  background-color: white;
+  border-radius: 12px;
+  padding: px 20px;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.btn-add:hover {
+  background-color: rgb(226, 172, 240);
+  }
+
+.form-question {
+  position: relative;
+  padding: 1px 8px 1px 10px;
+  font-size: 18px;
+  color:#000000;
+  font-weight:700;
+  transition: 0.2s;
+  margin-bottom: 30px;
+}
+
+.input-question {
+  margin-right: 20px;
+}

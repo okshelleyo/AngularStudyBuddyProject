@@ -1,0 +1,38 @@
+.btn-answer {
+  border: #ff1493;
+  color: #26385e;
+  border-radius: 12px;
+  padding: 3px 10px;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.btn-answer:hover {
+  background-color: rgb(192, 100, 184);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ol li {
+    position: relative;
+    padding: 1px 8px 1px 10px;
+    font-size: 18px;
+    font-weight:700;
+    transition: 0.2s;
+  }
+
+  .answer-box {
+    position: relative;
+    padding: 1px 8px 1px 10px;
+    font-size: 18px;
+    color:#000000;
+    font-weight:700;
+    transition: 0.2s;
+    margin-bottom: 30px;
+
+  }

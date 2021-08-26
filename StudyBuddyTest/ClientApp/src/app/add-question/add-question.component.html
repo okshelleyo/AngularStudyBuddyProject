@@ -1,5 +1,7 @@
-<form #QandAForm="ngForm" (ngSubmit)="onSubmit(QandAForm)">
-  <input name="question" ngModel>
-  <input name="answer" ngModel>
-  <button>Add Q and A</button>
+<form class="form-question" #QandAForm="ngForm" (ngSubmit)="onSubmit(QandAForm)">
+
+  Question: <input class="input-question" name="question" ngModel>
+  Answer: <input name="answer" ngModel>
+
+  <button class="btn-add">Add Q and A</button>
 </form>
